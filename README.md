@@ -2,7 +2,7 @@
 
 # Border Radius Previewer
 
-### made for the App Ideas
+### made for the [App Ideas](https://github.com/florinpop17/app-ideas)
 You can change the 8 values of border radius and see a preview.
 
 
