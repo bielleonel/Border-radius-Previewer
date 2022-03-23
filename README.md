@@ -13,4 +13,4 @@ You can change the 8 values of border radius and see a preview.
 [![JAVASCRIPT](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
 
-<p align="center">Copyright © 2022 Seu Usuario</p>
+<p align="center">Copyright © 2022 Gabriel Leonel</p>
