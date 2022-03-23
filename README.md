@@ -1,6 +1,6 @@
 ![Alt text](img/preview.png?raw=true "Site Preview")
 
-# Border Radius Preview
+# Border Radius Previewer
 
 ### made for the App Ideas
 You can change the 8 values of border radius and see a preview.
