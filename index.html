@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Radius Preview</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>Border Radius Preview</h1>
+
+    <section class="squareSec">
+
+        <div id="borderSq">
+            <div id="square">
+                <div id="topLetters">
+                    <p>A</p>
+                    <p>B</p>
+                </div>
+                <div id="latteral">
+                    <div class="latteral-letter-left">
+                        <p class="latteral-letter">E</p>
+                        <p>H</p>
+                    </div>
+                    <div class="latteral-letter-right">
+                        <p class="latteral-letter">F</p>
+                        <p>G</p>
+                    </div>
+                </div>
+                <div id="BottomLetters">
+                    <p>D</p>
+                    <p>C</p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div id="option-set">
+            <p>borders: </p>
+            <ul>
+                <li>border A:
+                    <div class="inputs">
+                        <input type="range" class="slider" name="" id="A" value="0" min="0" max="100">
+                        <input type="number" min="0" max="100" value="0" required>%
+                    </div>
+
+                </li>
+                <li>border B:
+                    <div class="inputs">
+                        <input type="range" class="slider" name="" id="B" value="0" min="0" max="100">
+                        <input type="number" min="0" max="100" value="0" required>%
+                    </div>
+
+                </li>
+                <li>border C:
+                    <div class="inputs">
+                        <input type="range" class="slider" name="" id="C" value="0" min="0" max="100">
+                        <input type="number" min="0" max="100" value="0" required>%
+                    </div>
+
+                </li>
+                <li>border D:
+                    <div class="inputs">
+                        <input type="range" class="slider" name="" id="D" value="0" min="0" max="100">
+                        <input type="number" min="0" max="100" value="0" required>%
+                    </div>
+
+                </li>
+                <li>border E:
+                    <div class="inputs">
+                        <input type="range" class="slider" name="" id="E" value="0" min="0" max="100">
+                        <input type="number" min="0" max="100" value="0" required>%
+                    </div>
+
+                </li>
+                <li>border F:
+                    <div class="inputs">
+                        <input type="range" class="slider" name="" id="F" value="0" min="0" max="100">
+                        <input type="number" min="0" max="100" value="0" required>%
+                    </div>
+
+                </li>
+                <li>border G:
+                    <div class="inputs">
+                        <input type="range" class="slider" name="" id="G" value="0" min="0" max="100">
+                        <input type="number" min="0" max="100" value="0" required>%
+                    </div>
+
+                </li>
+                <li>border H:
+                    <div class="inputs">
+                        <input type="range" class="slider" name="" id="H" value="0" min="0" max="100">
+                        <input type="number" min="0" max="100" value="0" required>%
+                    </div>
+
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="cssT">
+        <h3>CSS</h3>
+        <textarea name="cssText" id="cssText" cols="60" rows="8" disabled></textarea>
+
+        <button title="Click to copy CSS!" onclick="CopyText()">Copy</button>
+    </section>
+
+    <script src="./styles_preview.js"></script>
+
+    <footer>&copy;Kneght 2022</footer>
+</body>
+</html>
